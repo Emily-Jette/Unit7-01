@@ -13,7 +13,7 @@ function randomizer () {
   randomNumber = Math.floor(Math.random() * 6) + 1
 
   // compare user's guess to random number
-  if (userGuess == randomNumber) {
+  if (userGuess === randomNumber) {
     document.getElementById('answer').innerHTML = 'You guessed ' + userGuess + '. That is correct!'
   }
 }
